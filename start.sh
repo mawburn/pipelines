@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt -U --cache-dir ~/.pip-cache
+
+
 PORT="${PORT:-9099}"
 HOST="${HOST:-0.0.0.0}"
 # Default value for PIPELINES_DIR
 PIPELINES_DIR=${PIPELINES_DIR:-./pipelines}
+
 
 # Function to reset pipelines
 reset_pipelines_dir() {
