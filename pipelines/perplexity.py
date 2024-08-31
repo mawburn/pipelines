@@ -29,8 +29,28 @@ class Pipeline:
 
         # List of models
         self.pipelines = [
-            {"id": "gpt-4o-mini", "name": "GPT4o Mini + Perplexity"},
-            {"id": "claude-3-opus-20240229", "name": "Claude 3 Opus + Perplexity"}
+            {
+                "id": "llama-3.1-sonar-large-128k-online",
+                "name": "Llama 3.1 Sonar Large 128k Online"
+            },
+            {
+                "id": "llama-3.1-sonar-small-128k-online",
+                "name": "Llama 3.1 Sonar Small 128k Online"
+            },
+            {
+                "id": "llama-3.1-sonar-large-128k-chat",
+                "name": "Llama 3.1 Sonar Large 128k Chat"
+            },
+            {
+                "id": "llama-3.1-sonar-small-128k-chat",
+                "name": "Llama 3.1 Sonar Small 128k Chat"
+            },
+            {
+                "id": "llama-3.1-8b-instruct", "name": "Llama 3.1 8B Instruct"
+            },
+            {
+                "id": "llama-3.1-70b-instruct", "name": "Llama 3.1 70B Instruct"
+            }
         ]
         pass
 
