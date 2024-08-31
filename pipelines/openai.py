@@ -50,10 +50,10 @@ class Pipeline:
 
     def get_openai_models(self):
         return [
-            {"id": "gpt-4o-mini", "name": "gpt-4o-mini"},
-            {"id": "gpt-4o", "name": "gpt-4o"},
-            {"id": "gpt-4-turbo", "name": "gpt-4-turbo"},
             {"id": "gpt-4", "name": "gpt-4"},
+            {"id": "gpt-4-turbo", "name": "gpt-4-turbo"},
+            {"id": "gpt-4o", "name": "gpt-4o"},
+            {"id": "gpt-4o-mini", "name": "gpt-4o-mini"},
         ]
 
     def pipe(
