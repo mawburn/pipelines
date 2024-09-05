@@ -4,7 +4,7 @@ source venv/bin/activate
 pip install -r requirements.txt -U --cache-dir ~/.pip-cache
 
 
-PORT="${PORT:-9099}"
+PORT="9099"
 HOST="${HOST:-0.0.0.0}"
 # Default value for PIPELINES_DIR
 PIPELINES_DIR=${PIPELINES_DIR:-./pipelines}
